@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:paddingLeft="40dp"
+    android:textAlignment="gravity"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignLeft="@+id/editText1"
+        android:layout_below="@+id/editText1"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/search"
+        android:onClick="conectar" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignBaseline="@+id/button2"
+        android:layout_alignBottom="@+id/button2"
+        android:layout_marginRight="17dp"
+        android:layout_toLeftOf="@+id/button3"
+        android:background="@drawable/pencil" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignBaseline="@+id/button1"
+        android:layout_alignBottom="@+id/button1"
+        android:layout_marginRight="18dp"
+        android:layout_toLeftOf="@+id/button4"
+        android:background="@drawable/adduser" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="72dp"
+        android:layout_toRightOf="@+id/textView1"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:hint="@string/dni_hint" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignBaseline="@+id/button4"
+        android:layout_alignBottom="@+id/button4"
+        android:layout_alignRight="@+id/editText1"
+        android:background="@drawable/delete" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="35dp"
+        android:layout_height="20dp"
+        android:layout_alignBaseline="@+id/editText1"
+        android:layout_alignBottom="@+id/editText1"
+        android:layout_alignParentLeft="true"
+        android:text="@string/dni"
+        android:textAlignment="textEnd"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#58ACFA" />
+
+</RelativeLayout>

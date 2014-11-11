@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Operaciones Servicio Web</string>
+    <string name="progress_title">Conectando con la base de datos</string>
+    <string name="sin_respuesta">El servidor no responde</string>
+    <string name="dni">DNI</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellidos">Apellidos</string>
+    <string name="direccion">Dirección</string>
+    <string name="telefono">Teléfono</string>
+    <string name="equipo">Equipo</string>
+    <string name="dni_hint">Introduzca un DNI</string>
+    <string name="title_activity_consulta">Consulta de Registros</string>
+
+</resources>

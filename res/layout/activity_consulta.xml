@@ -142,7 +142,8 @@
         android:layout_alignBaseline="@+id/Button02"
         android:layout_alignBottom="@+id/Button02"
         android:layout_alignRight="@+id/EditText02"
-        android:background="@drawable/ic_action_next" />
+        android:background="@drawable/ic_action_next"
+        android:onClick="mostrarUltimo" />
 
     <Button
         android:id="@+id/Button02"
@@ -150,9 +151,10 @@
         android:layout_height="30dp"
         android:layout_alignBaseline="@+id/Button01"
         android:layout_alignBottom="@+id/Button01"
-        android:layout_marginRight="22dp"
+        android:layout_marginRight="21dp"
         android:layout_toLeftOf="@+id/Button03"
-        android:background="@drawable/ic_action_fast_forward" />
+        android:background="@drawable/ic_action_fast_forward"
+        android:onClick="mostrarSiguiente" />
 
     <Button
         android:id="@+id/Button01"
@@ -160,9 +162,10 @@
         android:layout_height="30dp"
         android:layout_alignBaseline="@+id/button1"
         android:layout_alignBottom="@+id/button1"
-        android:layout_marginRight="23dp"
+        android:layout_marginRight="21dp"
         android:layout_toLeftOf="@+id/Button02"
-        android:background="@drawable/ic_action_rewind" />
+        android:background="@drawable/ic_action_rewind"
+        android:onClick="mostrarAnterior" />
 
     <Button
         android:id="@+id/button1"
@@ -170,8 +173,9 @@
         android:layout_height="30dp"
         android:layout_alignLeft="@+id/EditText02"
         android:layout_below="@+id/EditText02"
-        android:layout_marginTop="19dp"
-        android:background="@drawable/ic_action_previous" />
+        android:layout_marginTop="21dp"
+        android:background="@drawable/ic_action_previous"
+        android:onClick="mostrarPrimero" />
 
     <TextView
         android:id="@+id/textView2"

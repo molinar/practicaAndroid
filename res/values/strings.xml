@@ -12,5 +12,8 @@
     <string name="equipo">Equipo</string>
     <string name="dni_hint">Introduzca un DNI</string>
     <string name="title_activity_consulta">Consulta de Registros</string>
+    <string name="title_activity_insercion">Inserción de Registros</string>
+    <string name="title_activity_borrado">Borrado de Registros</string>
+    <string name="title_activity_modificacion">Modificacion de Registros</string>
 
 </resources>

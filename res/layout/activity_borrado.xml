@@ -14,7 +14,8 @@
         android:layout_marginRight="26dp"
         android:background="#FFFFFF"
         android:ems="10"
-        android:layout_marginTop="10dp" />
+        android:layout_marginTop="10dp"
+        android:focusable="false" />
 
     <EditText
         android:id="@+id/editText2"
@@ -25,7 +26,8 @@
         android:layout_marginRight="26dp"
         android:layout_marginTop="10dp"
         android:background="#FFFFFF"
-        android:ems="10" />
+        android:ems="10"
+        android:focusable="false" />
 
     <EditText
         android:id="@+id/editText3"
@@ -36,7 +38,8 @@
         android:layout_marginRight="26dp"
         android:layout_marginTop="10dp"
         android:background="#FFFFFF"
-        android:ems="10" />
+        android:ems="10"
+        android:focusable="false" />
 
     <EditText
         android:id="@+id/editText4"
@@ -47,7 +50,8 @@
         android:layout_marginRight="26dp"
         android:layout_marginTop="10dp"
         android:background="#FFFFFF"
-        android:ems="10" />
+        android:ems="10"
+        android:focusable="false" />
 
     <EditText
         android:id="@+id/EditText02"
@@ -58,7 +62,8 @@
         android:layout_marginRight="26dp"
         android:layout_marginTop="10dp"
         android:background="#FFFFFF"
-        android:ems="10" />
+        android:ems="10" 
+        android:focusable="false"/>
 
     <TextView
         android:id="@+id/textView1"
@@ -128,7 +133,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="32dp"
-        android:text="@string/title_activity_consulta"
+        android:text="@string/title_activity_borrado"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:textColor="#FFFFFF" />
 
@@ -138,49 +143,19 @@
         android:layout_height="30dp"
         android:layout_alignLeft="@+id/EditText01"
         android:layout_below="@+id/textView2"
-        android:layout_marginTop="52dp"
+        android:layout_marginTop="39dp"
         android:background="#FFFFFF"
-        android:ems="10" />
+        android:ems="10"
+        android:focusable="false" />
 
     <Button
         android:id="@+id/button1"
         android:layout_width="30dp"
         android:layout_height="30dp"
         android:layout_below="@+id/EditText02"
-        android:layout_marginTop="25dp"
-        android:layout_toLeftOf="@+id/textView2"
-        android:background="@drawable/ic_action_previous"
-        android:onClick="mostrarPrimero" />
-
-    <Button
-        android:id="@+id/Button01"
-        android:layout_width="30dp"
-        android:layout_height="30dp"
-        android:layout_alignBaseline="@+id/button1"
-        android:layout_alignBottom="@+id/button1"
-        android:layout_toRightOf="@+id/textView1"
-        android:background="@drawable/ic_action_rewind"
-        android:onClick="mostrarAnterior" />
-
-    <Button
-        android:id="@+id/Button02"
-        android:layout_width="30dp"
-        android:layout_height="30dp"
-        android:layout_alignBaseline="@+id/Button01"
-        android:layout_alignBottom="@+id/Button01"
-        android:layout_alignRight="@+id/textView2"
-        android:layout_marginRight="38dp"
-        android:background="@drawable/ic_action_fast_forward"
-        android:onClick="mostrarSiguiente" />
-
-    <Button
-        android:id="@+id/Button03"
-        android:layout_width="30dp"
-        android:layout_height="30dp"
-        android:layout_alignBaseline="@+id/Button02"
-        android:layout_alignBottom="@+id/Button02"
-        android:layout_toRightOf="@+id/Button02"
-        android:background="@drawable/ic_action_next"
-        android:onClick="mostrarUltimo" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/delete"
+        android:onClick="borrarInformacion" />
 
 </RelativeLayout>

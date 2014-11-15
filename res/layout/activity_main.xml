@@ -7,36 +7,6 @@
     android:textAlignment="gravity"
     tools:context="${relativePackage}.${activityClass}" >
 
-    <Button
-        android:id="@+id/button1"
-        android:layout_width="30dp"
-        android:layout_height="30dp"
-        android:layout_alignLeft="@+id/editText1"
-        android:layout_below="@+id/editText1"
-        android:layout_marginTop="28dp"
-        android:background="@drawable/search"
-        android:onClick="conectar" />
-
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="30dp"
-        android:layout_height="30dp"
-        android:layout_alignBaseline="@+id/button2"
-        android:layout_alignBottom="@+id/button2"
-        android:layout_marginRight="17dp"
-        android:layout_toLeftOf="@+id/button3"
-        android:background="@drawable/pencil" />
-
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="30dp"
-        android:layout_height="30dp"
-        android:layout_alignBaseline="@+id/button1"
-        android:layout_alignBottom="@+id/button1"
-        android:layout_marginRight="18dp"
-        android:layout_toLeftOf="@+id/button4"
-        android:background="@drawable/adduser" />
-
     <EditText
         android:id="@+id/editText1"
         android:layout_width="180dp"
@@ -56,7 +26,8 @@
         android:layout_alignBaseline="@+id/button4"
         android:layout_alignBottom="@+id/button4"
         android:layout_alignRight="@+id/editText1"
-        android:background="@drawable/delete" />
+        android:background="@drawable/delete"
+        android:onClick="borrar" />
 
     <TextView
         android:id="@+id/textView1"
@@ -69,5 +40,37 @@
         android:textAlignment="textEnd"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:textColor="#58ACFA" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/editText1"
+        android:layout_marginTop="33dp"
+        android:layout_toLeftOf="@+id/editText1"
+        android:background="@drawable/search"
+        android:onClick="conectar" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignBaseline="@+id/button1"
+        android:layout_alignBottom="@+id/button1"
+        android:layout_alignLeft="@+id/editText1"
+        android:layout_marginLeft="18dp"
+        android:background="@drawable/adduser"
+        android:onClick="insertar" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignBaseline="@+id/button2"
+        android:layout_alignBottom="@+id/button2"
+        android:layout_marginLeft="34dp"
+        android:layout_toRightOf="@+id/button2"
+        android:background="@drawable/pencil"
+        android:onClick="modificar" />
 
 </RelativeLayout>

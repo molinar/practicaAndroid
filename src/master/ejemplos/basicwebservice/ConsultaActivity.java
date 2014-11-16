@@ -98,14 +98,14 @@ public class ConsultaActivity extends Activity {
 		}
 	}
 	
-	 public void volverMain(){
- 			Intent i = new Intent(this, MainActivity.class);	
-		    setResult(RESULT_CANCELED, i);
-			Toast.makeText(this, "Registro no existente", Toast.LENGTH_LONG).show();
-		    finish();
-	    }
-	
-    @Override
+	public void volverMain() {
+		Intent i = new Intent(this, MainActivity.class);
+		setResult(RESULT_CANCELED, i);
+		Toast.makeText(this, "Registro no existente", Toast.LENGTH_LONG).show();
+		finish();
+	}
+
+	@Override
 	public void onBackPressed() {
 		setResult(RESULT_OK);
 		Toast.makeText(this, "Consulta finalizada", Toast.LENGTH_LONG).show();

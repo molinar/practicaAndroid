@@ -12,9 +12,9 @@
         android:layout_alignParentRight="true"
         android:layout_below="@+id/editText1"
         android:layout_marginRight="26dp"
+        android:layout_marginTop="10dp"
         android:background="#FFFFFF"
         android:ems="10"
-        android:layout_marginTop="10dp"
         android:focusable="false" />
 
     <EditText
@@ -62,8 +62,8 @@
         android:layout_marginRight="26dp"
         android:layout_marginTop="10dp"
         android:background="#FFFFFF"
-        android:ems="10" 
-        android:focusable="false"/>
+        android:ems="10"
+        android:focusable="false" />
 
     <TextView
         android:id="@+id/textView1"

@@ -12,9 +12,9 @@
         android:layout_alignParentRight="true"
         android:layout_below="@+id/editText1"
         android:layout_marginRight="26dp"
+        android:layout_marginTop="10dp"
         android:background="#FFFFFF"
-        android:ems="10"
-        android:layout_marginTop="10dp" />
+        android:ems="10" />
 
     <EditText
         android:id="@+id/editText2"
@@ -151,7 +151,6 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="24dp"
         android:background="@drawable/adduser"
-        android:onClick="obtenerInformacion"
-         />
+        android:onClick="obtenerInformacion" />
 
 </RelativeLayout>
